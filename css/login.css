@@ -1,0 +1,72 @@
+body{
+    height: 100%;
+    background-color: rgb(161, 106, 65);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+    height: 400px;
+
+    background-color: rgb(244, 200, 160);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+
+.container h2{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.container label{
+    text-align: left;
+    color: #000000;
+}
+
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #000000;
+    color: rgb(20, 1, 88);
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.container form button{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    border: none;
+    background-color: rgb(161, 106, 65);
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.container button:hover{
+    background-color: rgb(102, 58, 34);
+}
+
+.rg { 
+    font-size: 12px;
+    text-align: right;
+}
+
+.log_rg { 
+    font-size: 12px;
+    text-align: left;
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.beranda-wadah {
+    display: block;
+    width: 100%;
+}
+
+.beranda-atas {
+    font-family: 'Zilla Slab', serif;
+    font-size: 18pt;
+    font-weight: 500;
+    background-image: url('../gambar/home-bg-atas.png');
+    background-position: 70%;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+}
+
+.beranda-atas-menu {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.beranda-atas-menu-padding {
+    margin: 0px 40px;
+}
+
+.beranda-atas-menu-list {
+    border: 1px solid grey;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #D3BDB1;
+    color: black;
+    width: 155px;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.beranda-atas-nama {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 47pt;
+
+    text-align: center;
+    margin-top: 70px;
+    margin-right: 250px;
+}
+
+.beranda-atas-coffee-menu-container {
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.beranda-atas-coffee-menu {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #D3BDB1;
+    color: black;
+    width: 200px;
+    height: 70px;
+
+    font-family: 'Zilla Slab', serif;
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.beranda-tengah {
+    background-color: #663A22;
+    width: 100%;
+    display: flex;
+}
+
+.beranda-tengah-gambar-wadah-jarak {
+    width: 25%;
+}
+
+.beranda-tengah-gambar-wadah-kiri {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.beranda-tengah-gambar-wadah-kanan {
+    display: flex;
+    flex-direction: column;
+    width: 37.5%;
+}
+
+.beranda-tengah-jarak {
+    margin-left: 40px;
+}
+
+.beranda-tengah-nama-menu {
+    font-family: 'Oleo Script', cursive;
+    font-size: 23pt;
+    color: #E7843D;
+}
+
+.beranda-tengah-gambar-nama-wadah {
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.beranda-tengah-gambar-wadah {
+    width: 90%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.beranda-bawah {
+    font-family: 'Pacifico', cursive;
+    background-color: #A16A41;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+
+.beranda-bawah-kiri {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.beranda-bawah-kiri-title {
+    margin-bottom: 30px;
+    font-size: 30pt;
+}
+
+div .beranda-bawah-kiri-tagline {
+    font-family: 'Oleo Script', cursive;
+    font-size: 18pt;
+}
+
+.beranda-bawah-kanan {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.beranda-bawah-kanan-title {
+    font-size: 20pt;
+}
+
+.beranda-bawah-list-menu {
+    list-style-type: "> " ;
+    font-family: 'Oleo Script', cursive;
+    font-size: 18pt;
+    line-height: 40px;
+}
+
+.beranda-footer {
+    background-color: #D4A77E;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.padding-footer {
+    padding-left: 30px;
+}
+
+

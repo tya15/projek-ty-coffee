@@ -58,6 +58,12 @@ a:visited {
     justify-content: center;
 }
 
+.beranda-atas-menu-list:hover{
+    background-color: #663A22;
+    color: white;
+    transition: .5s;
+}
+
 .beranda-atas-nama {
     font-family: 'Pacifico', cursive;
     color: white;

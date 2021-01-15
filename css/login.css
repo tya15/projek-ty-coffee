@@ -58,7 +58,7 @@ body{
 }
 
 .container button:hover{
-    background-color: rgb(102, 58, 34);
+    background-color: rgb(238, 170, 134);
 }
 
 .rg { 
@@ -69,4 +69,25 @@ body{
 .log_rg { 
     font-size: 12px;
     text-align: left;
+}
+
+.tombol{
+    display: block;
+}
+
+.log_pop-up{
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.konten-pop-up{
+    background-color: white;
+    margin: 5% auto 15% auto;
+    width: 70%;
 }

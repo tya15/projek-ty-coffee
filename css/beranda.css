@@ -54,6 +54,30 @@ li :visited {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: .5s;
+}
+
+.beranda-atas-menu-list:hover{
+    background-color: #663A22;
+    color: white;
+    transition: .5s;
+}
+
+.beranda-pop-up {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.konten-pop-up{
+    background-color: white;
+    margin: 5% auto 15% auto;
+    width: 70%;
 }
 
 .beranda-atas-nama {
@@ -142,5 +166,3 @@ div .beranda-bawah-kiri-tagline {
 .padding-footer {
     padding-left: 30px;
 }
-
-
